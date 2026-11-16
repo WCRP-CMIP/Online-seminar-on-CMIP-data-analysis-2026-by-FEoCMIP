@@ -112,3 +112,7 @@ Now, lets make sure ESMValTool will download missing data. Download ````data-loc
    esmvaltool run recipe_temperature_anomalies.yml
    ```
 3. Investigate the output in your _online_seminar_ folder. Which subfolders has ESMValTool created? Can you find where the figures are stored? 
+
+### Interested in running ESMValTool in a Jupyter Notebook? ###
+
+Check **ESMValTool_Jupyter_Notebook.ipynb** for the detailed guidance. Once ESMValTool is configured (see the beginning of this document), any missing data will be downloaded automatically when you run the Notebook. 
