@@ -71,8 +71,7 @@ preprocessors:
   #
   # -> monthly anomalies relative to 1981-2010
   # -> analyzed period 1979-2024
-  # -> mean over 65-90N
-  # -> zonal mean 
+  # -> mean over 65-90N, zonal mean with area_statistics
   # Output: monthly Arctic anomalies
   # ============================================================
 
@@ -107,10 +106,7 @@ preprocessors:
       start_latitude: 65
       end_latitude: 90
 
-    zonal_statistics:
-      operator: mean
-
-    meridional_statistics:
+    area_statistics:
       operator: mean
 
 
@@ -154,10 +150,7 @@ preprocessors:
       start_latitude: 65
       end_latitude: 90
 
-    zonal_statistics:
-      operator: mean
-
-    meridional_statistics:
+    area_statistics:
       operator: mean
 
     annual_statistics:
