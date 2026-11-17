@@ -114,5 +114,9 @@ Now, lets make sure ESMValTool will download missing data. Download ````data-loc
 3. Investigate the output in your _online_seminar_ folder. Which subfolders has ESMValTool created? Can you find where the figures are stored? 
 
 ### Interested in running ESMValTool in a Jupyter Notebook? ###
+ **ESMValTool_Jupyter_Notebook.ipynb**\
+You can run the code in Jupyter Notebook using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/egalytska/ESMValTool_seminar26_FEoCMIP/HEAD?urlpath=%2Fdoc%2Ftree%2FESMValTool_Jupyter_Notebook.ipynb). You do not need any additional installations or configurations. Note, the code might be much slower on Binder than on your own machine. 
+ 
 
-Check **ESMValTool_Jupyter_Notebook.ipynb** for the detailed guidance. Once ESMValTool is configured (see the beginning of this document), any missing data will be downloaded automatically when you run the Notebook. 
+
+
