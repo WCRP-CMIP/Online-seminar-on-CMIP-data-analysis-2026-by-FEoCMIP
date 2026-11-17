@@ -7,6 +7,9 @@ Online seminar on CMIP data analysis tools and tutorials
 
 **Presenter**: Evgenia Galytska (egalytska@iup.physik.uni-bremen.de)
 
+ 
+[**Interested in running ESMValTool in a Jupyter Notebook?** Check the bottom of this README file.](#interested-in-running-esmvaltool-in-a-jupyter-notebook)
+
 Check ESMValTool tutorial webpage https://tutorial.esmvaltool.org/ to practice your skills. 
 Need more detailed information? Check the ESMValTool documentation https://docs.esmvaltool.org/.
 
