@@ -32,7 +32,7 @@ ___
 
 **(!)** The user can download the ````config-user.yml ```` by running: 
      	
-           esmvaltool config copy defaults/config-user.yml
+        esmvaltool config copy defaults/config-user.yml
 
 Open the **config-user.yml** file. It is downloaded to your ~/.config/esmvaltool/ directory. Check and adapt the following settings: 
     
@@ -115,7 +115,8 @@ Now, lets make sure ESMValTool will download missing data. Download ````data-loc
 
 ### Interested in running ESMValTool in a Jupyter Notebook? ###
  **ESMValTool_Jupyter_Notebook.ipynb**\
-You can run the code in Jupyter Notebook using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/egalytska/ESMValTool_seminar26_FEoCMIP/HEAD?urlpath=%2Fdoc%2Ftree%2FESMValTool_Jupyter_Notebook.ipynb). You do not need any additional installations or configurations. Note, the code might be much slower on Binder than on your own machine. 
+You can run the code in Jupyter Notebook using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/egalytska/ESMValTool_seminar26_FEoCMIP/HEAD?urlpath=%2Fdoc%2Ftree%2FESMValTool_Jupyter_Notebook.ipynb). You do not need any additional installations or configurations. Note, the code might be much slower on Binder than on your own machine. \
+**(!)** Note, now **esmvaltool_config** folder includes configuration file **data-intake-esgf.yml** needed for downloading missing data. 
  
 
 
